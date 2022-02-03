@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { AnimalComponent } from './animal.component';
+import { PageRenderComponent } from './page-render.component';
 
 
 const routes: Routes = [
   {
     path: ':id',
-    component: AnimalComponent
+    component: PageRenderComponent
   }
 ];
 
@@ -15,4 +15,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class AnimalRoutingModule { }
+export class PageRoutingModule { }

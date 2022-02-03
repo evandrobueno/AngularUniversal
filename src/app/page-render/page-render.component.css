@@ -1,0 +1,17 @@
+*
+{
+    color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:auto;
+}
+
+section
+{
+    position: absolute;
+    top:0px;
+    left:0px;
+    bottom: 0px;
+    right: 0px;
+    text-align:center;
+    padding:30px;
+}

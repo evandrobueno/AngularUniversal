@@ -1,2 +1,2 @@
-export * from './search/search.service';
+export * from './contentstack/contentstack.service';
 export * from './interfaces';

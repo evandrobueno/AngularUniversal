@@ -1,13 +1,11 @@
-export interface Address {
-  street: string;
-  city: string;
-  zip: string;
-}
-
-export interface Animal {
-  id: number;
-  name: string;
-  age: string;
-  address: Address;
-  characteristics: [string]
+export interface Page {
+  key: string;
+  title: string;
+  rout: string;
+  description: string;
+  img: string;
+  company: string;
+  background: string;
+  icon: string; 
+  logo: string;
 }

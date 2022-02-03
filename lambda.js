@@ -14,7 +14,8 @@ const handler = async (event, context, callback) => {
     const request = event.Records[0].cf.request;
 
 
-    if ((!path.extname(request.uri)) || (request.uri === '/index.html')) {
+    if ((!path.extname(request.uri)) || (request.uri === '/index.html'))
+    {
         const response = await handle(event, context);
         let minified = minify(response.body, {
             caseSensitive: true,
@@ -33,7 +34,8 @@ const handler = async (event, context, callback) => {
             body: minified,
             bodyEncoding: response.bodyEncoding
         });
-    } else {
+    } else
+    {
         console.log(`${request.uri} directly served from S3`)
         return request;
     }

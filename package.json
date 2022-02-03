@@ -26,9 +26,12 @@
     "@angular/platform-server": "~11.0.4",
     "@angular/router": "~11.0.4",
     "@nguniversal/express-engine": "^11.0.1",
+    "aws-serverless-express": "^3.4.0",
     "express": "^4.15.2",
     "html-minifier": "^4.0.0",
     "rxjs": "~6.6.0",
+    "serverless": "^3.1.0",
+    "serverless-apigw-binary": "^0.4.4",
     "serverless-http": "eelayoubi/serverless-http",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
